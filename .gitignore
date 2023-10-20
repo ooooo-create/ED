@@ -1,0 +1,11 @@
+# 不忽略所以文件夹
+!*./
+
+# 忽略 .2c 文件
+.idea
+*.2C
+*.exe
+image/
+CE3_BMYK_PCAMR-C-053_SCI_N_20140113195639_20140113195639_0008_A.zip
+image.zip
+*.pdf
