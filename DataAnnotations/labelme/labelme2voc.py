@@ -32,7 +32,8 @@ def main():
         with open(args.labels) as f:
             labels = [label.strip() for label in f if label]
     else:
-        labels = [label.strip() for label in args.labels.split(",")]
+        # labels = [label.strip() for label in args.labels.split(",")]
+        print("label.txt is missing, please make a file for it")
 
     class_names = []
     class_names_to_id = {}
